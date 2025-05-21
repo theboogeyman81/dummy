@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0047AB; /* Blue background same as logo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 3rem;
+  color: black;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: rgb(18, 5, 77);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #222;
+}
+
+.card-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  padding: 0 40px;
+}
+
+.card {
+  background-color: white;
+  color: black;
+  flex: 1;
+  margin: 0 15px;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.math-button {
+  background-color: white;
+  color: black;
+  flex: 1;
+  margin: 0 15px;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.math-button:hover {
+  background-color: #ffffffdd;
+  color: #002e6b;
+}
+
+.science-button {
+  background-color: white;
+  color: black;
+  flex: 1;
+  margin: 0 15px;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.science-button:hover {
+  background-color: #ffffffdd;
+  color: #002e6b;
+}
+
+.space-button {
+  background-color: white;
+  color: black;
+  flex: 1;
+  margin: 0 15px;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.space-button:hover {
+  background-color: #ffffffdd;
+  color: #002e6b;
+}
+
